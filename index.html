@@ -7,10 +7,25 @@
 </head>
 <body>
     <div class="container"></div>
+
+    <form id="mídiaForm">
+        <select id="selectTipo">
+            <option value="Filme">Filme</option>
+            <option value="Serie">Serie</option>
+        </select>
+        <input type="text" id="inputTitulo" placeholder="Título da Mídia" required>
+        <input type="number" id="inputAno" placeholder="Ano de Lançamento" required>
+        <input type="text" id="inputGenero" placeholder="Gênero (ex: Acão, Sci-Fi)" required>
+        <input type="text" id="inputTrailer" placeholder="URL do Trailer(https://)" required>
+        <input type="number" id="inputTemporadas" placeholder="Número de Temporadas" required>
+
+        <button type="submit" id="btnCadastrar">Cadastrar no Catalógo</button>
+    </form>
     <h1> CineDev</h1>
     <h2>Catálogo Avançado de Mídias</h2>
 
     <div id="mensagemErro"></div>
     <script src="main.js"></script>
 </body>
-</html> 
+</html>
+
