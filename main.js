@@ -1,2 +1,2 @@
-cost FilmeTest = { titulo: "Inception", ano: 2010, genero: "ficção" };
-console.log("Objeto mapeado:", FilmeTest);
+const filmeTeste = { título: "Inception", ano: 2010, genero: "Ficção" };
+console.log("Objeto mapeado:", filmeTeste); 
